@@ -1,0 +1,11 @@
+{
+  "name": "test-package2",
+  "scripts": {
+    "test1": "FOO='foo-inline' env | grep FOO",
+    "test2": "env | grep FOO",
+    "test3": "env | grep BAR"
+  },
+  "env": {
+    "FOO": "foo-ws"
+  }
+}
