@@ -1,0 +1,40 @@
+{
+  "name": "yarn-plugin-env-vars",
+  "version": "0.0.0",
+  "packageManager": "yarn@3.4.1",
+  "description": "A Yarn plugin that sets predefined environment variables for npm scripts",
+  "keywords": [
+    "yarn",
+    "plugin",
+    "environment variables",
+    "scripts",
+    "configuration",
+    "automation",
+    "development",
+    "build tools",
+    "monorepo"
+  ],
+  "author": "Sergio Cinos <sergio.cinos@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scinos/yarn-plugin-env-vars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scinos/yarn-plugin-env-vars/issues"
+  },
+  "homepage": "https://github.com/scinos/yarn-plugin-env-vars",
+  "main": "src/plugin.js",
+  "engines": {
+    "yarn": ">=3"
+  },
+  "scripts": {
+    "lint": "prettier -w .",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/keep-a-changelog": "^3.1.0",
+    "prettier": "^2.8.8",
+    "release-it": "^15.10.3"
+  }
+}
