@@ -7,6 +7,8 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.1] - 2023-05-09
+
 ### Chores
 
 - Set automated creation of GitHub Releases
@@ -15,5 +17,6 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 - Initial release
 
-[unreleased]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.0...HEAD
+[unreleased]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/scinos/yarn-plugin-env-vars/releases/tag/1.0.0
