@@ -7,7 +7,6 @@ module.exports = {
   },
   github: {
     release: true,
-    web: true,
     assets: ["src/yarn-plugin-env-vars.js"],
   },
   plugins: {

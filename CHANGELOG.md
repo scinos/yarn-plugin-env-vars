@@ -7,6 +7,10 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Chores
+
+- Set automated creation of GitHub Releases
+
 ## [1.0.0] - 2023-05-09
 
 - Initial release
