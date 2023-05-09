@@ -7,6 +7,10 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Bugfixes
+
+- Fix a bug where the plugin can't be installed 🤦‍♂️
+
 ## [1.0.1] - 2023-05-09
 
 ### Chores
