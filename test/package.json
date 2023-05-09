@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "packageManager": "yarn@3.4.1",
+  "workspaces": {
+    "packages": [
+      "package1",
+      "package2"
+    ]
+  },
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "env": {
+    "FOO": "foo-root",
+    "BAR": "bar-root",
+    "FOO2": null
+  }
+}

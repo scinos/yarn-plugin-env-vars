@@ -2,6 +2,14 @@
 
 This Yarn plugin makes sure that a specific set of environment variables have defined values before running any npm scripts.
 
+## Installation
+
+Add this plugin by running
+
+```
+yarn plugin import
+```
+
 ## Usage
 
 To use this plugin, add a new entry called `env` to your `package.json` file and list the keys you want to set. When you run any npm script, all the environment variables listed under `env` will be set to the specified value.
@@ -159,3 +167,11 @@ Here are some real-world use cases that inspired the creation of this plugin:
 While this plugin simplifies the process of setting environment variables for all npm scripts, it's important to keep in mind that it sets the variables for every script, even if a particular variable is not needed. This shouldn't be a problem in most cases, but if you're using this plugin to set a variable that a script already uses (such as `NODE_ENV`), it could potentially overwrite the script's default value and cause issues that are difficult to debug.
 
 It's also worth noting that conflicting environment variable values set at different levels (e.g., in the workspace `package.json` versus the root project `package.json`) may cause unexpected behavior. In these cases, the plugin will use the order of resolution that was explained earlier to determine which value to use.
+
+## Contributions
+
+Inside `test` there is a testing project that uses the plugin. It has been set up as a monorepo with two packages. Feel free to use it to test your changes.
+
+## License
+
+MIT
