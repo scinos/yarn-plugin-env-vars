@@ -7,6 +7,8 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.2] - 2023-05-09
+
 ### Bugfixes
 
 - Fix a bug where the plugin can't be installed 🤦‍♂️
@@ -21,6 +23,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 - Initial release
 
-[unreleased]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.1...HEAD
+[unreleased]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/scinos/yarn-plugin-env-vars/releases/tag/1.0.0
