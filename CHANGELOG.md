@@ -7,6 +7,9 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.0] - 2023-05-09
+
 - Initial release
 
-## [1.0.0-1]
+[unreleased]: https://github.com/scinos/yarn-plugin-env-vars/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/scinos/yarn-plugin-env-vars/releases/tag/1.0.0
